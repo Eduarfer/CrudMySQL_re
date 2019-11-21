@@ -85,4 +85,31 @@ public class MainActivity extends AppCompatActivity {
         btn_actualizar = (Button) findViewById(R.id.btn_actualizar);
         //tv_resultado = (TextView) findViewById(R.id.tv_resultado);
     }
+
+
+
+    /******************************************************************/
+    //BLOQUE DE CÓDIGO PARA MOSTRAR DATOS DE LA BUSQUEDA//
+        try {
+        Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        if (bundle != null) {
+
+            senal = bundle.getString("senal");
+            codigo = bundle.getString("codigo");
+            descripcion = bundle.getString("descripcion");
+            precio = bundle.getString("precio");
+            if (senal.equals("1")) {
+                et_codigo.setText(codigo);
+                et_descripcion.setText(descripcion);
+                et_precio.setText(precio);
+                //finish();
+            }else if(senal.equals("2")){
+
+            }
+        }
+    }catch (Exception e){
+
+    }
+    /******************************************************************/
 }
