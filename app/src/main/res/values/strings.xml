@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CrudMySQL_Re</string>
+    <string name="title_activity_main2">CrudMySQLAndroid</string>
+
+    <string name="action_settings">Registro Nuevo</string>
+    <string name="listarticulos">Lista Spinner</string>
+    <string name="listarticulos1">Lista ListView</string>
+
+
+    <string name="salir">Salir</string>
+    <string name="usuario"><u>Registrarme ya mismo</u></string>
+    <string name="pass"><u>¿No recuerdas tu contraseña?</u></string>
+    <string name="register"><u><b><i>Copyright</i></b></u></string>
+    <string name="bienvenido_a">BIENVENIDO/A</string>
 </resources>
